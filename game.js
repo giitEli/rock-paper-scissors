@@ -26,7 +26,7 @@ let ties = 0;
 /***************************** HELPER FUNCTIONS ******************************/
 function printHelp() {
     for(let key in VALID_MOVES) {
-      console.log(`  Type '${key}' for ${key.name}`)
+      console.log(`  Type '${key}' for ${VALID_MOVES[key].name}`)
     }
     console.log("  Type 'q' to quit");
     console.log("  Type 'h' for a list of valid commands\n");
